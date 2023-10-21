@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Connect"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/baseline_connection"
+        android:orderInCategory="100"
+        android:id="@+id/id_connect"/>
+
+    <item
+        android:title="ON/OFF/BtEnable"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/baseline_bt_enable"
+        android:orderInCategory="200"
+        android:id="@+id/id_bt_button"/>
+        <!--The previous (9) line of code is used to use the bluetooth image-->
+
+    <item
+        android:title="BtList"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/baseline_menu"
+        android:orderInCategory="300"
+        android:id="@+id/id_menu"/>
+</menu>

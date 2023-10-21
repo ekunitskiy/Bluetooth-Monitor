@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Search"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/baseline_search"
+        android:orderInCategory="100"
+        android:id="@+id/id_search"/>
+        <!--The previous (9) line of code is used to use the bluetooth image-->
+
+</menu>

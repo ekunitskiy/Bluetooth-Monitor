@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BLE_sendingData_onComand</string>
+    <string name="title_item_name">The founded devices</string>
+    <string name="discovering">Founding…</string>
+</resources>
